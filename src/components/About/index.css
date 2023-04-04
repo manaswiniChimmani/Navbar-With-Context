@@ -1,0 +1,53 @@
+/* Write your CSS here */
+
+.bg-container {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.bg-dark {
+  background-color: #000000;
+}
+
+.bg-light {
+  background-color: #ffffff;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.image {
+  height: 121px;
+}
+
+.heading {
+  font-size: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 45px;
+  }
+}
+
+.text-light {
+  color: #ffffff;
+}
+
+.text-dark {
+  color: #1e293b;
+}
